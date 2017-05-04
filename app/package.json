@@ -1,0 +1,23 @@
+{
+  "name": "code-and-brother",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "live-server ./app -a 127.0.0.1 -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samverneck/code-and-brother.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samverneck/code-and-brother/issues"
+  },
+  "homepage": "https://github.com/samverneck/code-and-brother#readme"
+}

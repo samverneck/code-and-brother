@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>GeoLocation</title>
+	<!-- css framework bulma -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
+	<!-- bulma do node_modules -->
+	<link rel="stylesheet" href="css/bulma.css">
+    <!-- css google maps -->
+    <!-- <link rel="stylesheet" href="https://developers.google.com/maps/documentation/javascript/demos/demos.css"> -->
+    <link rel="stylesheet" href="css/maps.css">
+    <!-- css local -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <!-- js file, has to be asyn to load html events-->
+    <script src="js/indexjs.js" async defer></script>
+    <!-- key do google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcjEwj2hYiA1_YhY5oZNwwf2Z-fSQoYXs"
+        async defer>
+    </script>
+</head>
+<body>
+	<!-- começando a codar mano! -->
+	<div class="columns">
+		<div class="column">
+			<main class="content">
+				<section class="hero">
+					<div class="hero-body">
+						<div class="container">
+							<h1>GEO<img src="images/map.svg" width="30px" height="30px"><b>LOCATION</b></h1>
+							<!-- <p>Click Show Me button to get your coordinates.</p> -->
+							<h2 class="subtitle"><!-- Click Show Me button to get your coordinates. --> Aperte o botão que seu alerta será emitido gerando a sua localização. <!-- (coordenada) --> </h2>
+							<!-- <a class="button is-large" id="ownLocation">Show me</a> -->
+							<button id ='ownLocation' class="button is-danger is-large"><b>ALERTA</b></button> 
+							<br> <br>
+							<section id="map" class="container"></section>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</div>
+	<!-- backup <main class="content">
+		<h2>Geo Location</h2>
+		<p>Click Show Me button to get your coordinates.</p>
+		<a class="button is-primary" id="ownLocation">Show me</a>
+		<button id ='ownLocation' class="button is-primary">Show Me</button> 
+		<br> <br>
+		<section id="map" class="container"></section>
+	</main> -->
+	<!-- acebei de codar mano! -->
+</body>
+</html>

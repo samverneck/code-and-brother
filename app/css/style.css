@@ -1,0 +1,13 @@
+body {
+	/*font-family: 'Play', sans-serif;*/
+	font-family: 'Inconsolata', monospace;
+}
+
+.input {
+  margin: 0 0 5px 5px;
+  width: 150px;
+}
+
+.button {
+  margin-left: 5px;
+}

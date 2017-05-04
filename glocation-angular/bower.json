@@ -1,0 +1,17 @@
+{
+  "name": "glocation-angular",
+  "homepage": "https://github.com/sistemaon/glocation",
+  "authors": [
+    "samverneck <osamucaverneck@gmail.com>"
+  ],
+  "description": "GeoLocation - AngularJS Maps",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
